@@ -3,13 +3,13 @@
 HOW To:
 
 1. Installiere docker und alles was dazu gehört
-   
-   sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin git-all
-   
+
 apt vorbereiten:
 https://docs.docker.com/engine/install/debian/
 
-2. Cole von Git
+   sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin git-all
+
+1. Cole von Git
    git clone https://github.com/DdoubleU-2/DeepSeekDocker.git
    
 4. Erstelle das docker Image
