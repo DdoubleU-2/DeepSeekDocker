@@ -5,6 +5,7 @@ HOW To:
 1. Installiere docker und alles was dazu gehört
    
    sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+   
 apt vorbereiten:
 https://docs.docker.com/engine/install/debian/
 
