@@ -7,9 +7,4 @@ RUN curl -fsSL https://ollama.com/install.sh | sh
 
 RUN systemctl start ollama.service && ollama pull deepseek-r1:7b
 
-#RUN echo 'systemctl start ollama.service && ollama run deepseek-r1:1.5b' >start.sh
-
-#RUN ollama run deepseek-r1:1.5b
-
-#CMD [ "sh" ]
 CMD systemctl start ollama.service && ollama run deepseek-r1:7b
