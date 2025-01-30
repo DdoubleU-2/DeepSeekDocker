@@ -10,8 +10,9 @@ HOW To:
 3. Erstelle das docker Image
    
    sudo docker build immagename:imageVersion /pfadzurDatei
+   
    z.B. sudo docker build deepseek7b:latest /home/daniel/GIT/DeepSeekDocker/DockerFiles/DeepSeek7B/dockerfile
    
-4. Starte den Docker container
+5. Starte den Docker container
    
    sudo docker run -it deepseek7b:latest
