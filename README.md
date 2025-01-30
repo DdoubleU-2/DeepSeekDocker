@@ -9,7 +9,8 @@ https://docs.docker.com/engine/install/debian/
 
    sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin git-all
 
-2. Cole von Git
+2. Clone von Git
+   
    git clone https://github.com/DdoubleU-2/DeepSeekDocker.git
    
 3. Erstelle das docker Image
